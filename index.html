@@ -251,7 +251,7 @@
         .nav-links a:hover::after, .nav-links a.active::after {
             width: 100%;
         }
-        .nav-cta {
+        .nav-links .nav-cta {
             background: var(--primary);
             color: #fff !important;
             padding: 10px 48px;
@@ -260,12 +260,12 @@
             font-size: 0.9rem;
             transition: all var(--transition);
         }
-        .nav-cta:hover {
+        .nav-links .nav-cta:hover {
             background: var(--primary-dark);
             color: #fff !important;
             transform: translateY(-1px);
         }
-        .nav-cta::after { display: none !important; }
+        .nav-links .nav-cta::after { display: none !important; }
         .mobile-toggle {
             display: none;
             background: none;
@@ -925,7 +925,7 @@
             }
             .nav-links { gap: 20px; }
             .nav-links a { font-size: 0.8rem; }
-            .nav-cta { padding: 8px 40px; font-size: 0.8rem; }
+            .nav-links .nav-cta { padding: 8px 40px; font-size: 0.8rem; }
         }
 
         /* ===== Mobile (max 768px) ===== */
