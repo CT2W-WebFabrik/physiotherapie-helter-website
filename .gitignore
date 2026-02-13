@@ -1,3 +1,4 @@
 _generate_og.py
+_generate_favicon.py
 *.md
 !README.md
